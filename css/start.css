@@ -14,7 +14,7 @@ body {
 
 @font-face {
     font-family: 'Kosko';
-    src: url('../fonts/KoskoRegular-Regular.ttf');
+    src: url('../fonts/KoskoRegular-Regular.woff');
 }
 
 h1 {
