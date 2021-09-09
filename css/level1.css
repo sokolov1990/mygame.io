@@ -1,5 +1,5 @@
 body {
-    background: url(img/fone-01.png) no-repeat center center fixed;
+    background: url(../img/fone-01.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,7 +38,7 @@ button {
 
 @font-face {
     font-family: 'Kosko';
-    src: url('..fonts/KoskoRegular-Regular.woff');
+    src: url(../fonts/KoskoRegular-Regular.woff);
 }
 
 h1 {
