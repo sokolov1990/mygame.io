@@ -16,7 +16,7 @@ window.onload = function() {
     context = canvas.getContext("2d");
 
     // Рисуем фон лабиринта
-    drawMaze("img/maze.png", 480, 270);
+    drawMaze("../img/maze.png", 480, 270);
 
     // При нажатии клавиши вызываем функцию processKey()
     window.onkeydown = processKey;
