@@ -183,4 +183,5 @@ function drawFrame() {
     // Рисуем следующий кадр через 10 миллисекунд
     timer = setTimeout("drawFrame()", 10);
 }
-\n
+
+
