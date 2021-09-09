@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/src/css/level1.css">
+    <title>Поиск ноутбука</title>
+    <script src="/src/js/level1.js"></script>
+</head>
+
+<body>
+    <div class="container" style="display: block;">
+        <h1>Помоги Дону Жирафу пройти лабиринт <br> и дойти до ноутбука</h1>
+    </div>
+    <div class="result" style="display: none;">
+        <h1>Отлично! Теперь ты знаешь, что у всех граждан МЭШ есть возможность пользоваться цифровой средой с одинаковыми и равными правами.</h1>
+        <form action="/src/pages/level2.html" target="_self">
+            <button>Отлично</button>
+        </form>
+    </div>
+    <canvas id="canvas" width="597" height="598" style="display: block;"></canvas>
+
+    <div class="jostick">
+        <button id="up" onclick="up()"></button>
+        <button id="left" onclick="left()"></button>
+        <button id="right" onclick="right()"></button>
+        <button id="down" onclick="down()"></button>
+    </div>
+
+
+    <img id="face" src="/src/img/face.png">
+</body>
+
+</html>
