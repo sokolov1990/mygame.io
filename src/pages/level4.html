@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/src/css/level4.css">
+
+    <title>LEVEL4</title>
+</head>
+
+<body>
+    <div class="otvet1" style="display: none;">
+        <h1>Ты хорошо справился! <br> Вот несколько правил, <br> которые существуют для электронного общения: <br> • Пиши со знаками препинания <br> • Сформулируй мысль, а потом напечатай её<br> • Не сокращай слова<br> • Не пиши длинный текст отдельными сообщениями<br>            • Используй смайлики
+        </h1>
+        <form action="/src/pages/level5.html" target="_self">
+            <button class="sps">СПАСИБО</button>
+        </form>
+    </div>
+    <div class="otvet2" style="display: none;">
+        <h1>Попробуй еще раз</h1>
+        <button class="sps" onClick="window.location.reload();">ХОРОШО</button>
+    </div>
+    <div class="container" style="display: block;">
+        <h1>Знаешь ли ты, как правильно общаться в социальных сетях? <br> Составь грамотные предложения для общения.</h1>
+        <div class="zone-1"></div>
+        <div class="zone-3"></div>
+        <div class="zone-5"></div>
+        <div class="zone-7"></div>
+
+        <div class="zone-2">
+            <h1 class="face" id="face" draggable="true"> Прив!</h1>
+        </div>
+        <div class="zone-4">
+            <h1 class="face" id="face1" draggable="true"> Какое домашнее задание на завтра?</h1>
+        </div>
+        <div class="zone-6">
+            <h1 class="face" id="face2" draggable="true"> Привет!</h1>
+        </div>
+        <div class="zone-8">
+            <h1 class="face" id="face3" draggable="true"> СПС</h1>
+        </div>
+        <div class="zone-9">
+            <h1 class="face" id="face4" draggable="true"> Скажи, пожалуйста </h1>
+        </div>
+        <div class="zone-10">
+            <h1 class="face" id="face5" draggable="true"> какая домашка?</h1>
+        </div>
+        <div class="zone-11">
+            <h1 class="face" id="face6" draggable="true"> Скажи плз</h1>
+        </div>
+        <div class="zone-12">
+            <h1 class="face" id="face7" draggable="true"> Спасибо!</h1>
+        </div>
+        <button onclick="proverka()">ПРОВЕРКА</button>
+    </div>
+
+    <script src="/src/js/level4.js"></script>
+</body>
+
+</html>

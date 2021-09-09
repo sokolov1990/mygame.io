@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/src/css/level6.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="otvet1" style="display: none;">
+        <h1>Горжусь тобой! <br> Цифровые гражданине МЭШ знают, <br> что следует устанавливать защиту на цифровое устройство <br> и оберегать свою личную информацию.</h1>
+        <form action="/src/pages/level7.html" target="_self">
+            <button class="btn">СПАСИБО</button>
+        </form>
+    </div>
+    <div class="otvet2" style="display: none;">
+        <h1>Попробуй еще раз</h1>
+        <button class="btn" onClick="window.location.reload();">ХОРОШО</button>
+    </div>
+
+
+
+    <div class="container" style="display: block;">
+        <h1>Дон Жираф случайно зашел на вредоносный сайт! <br> Составь из кубиков то, что обеспечит безопасность в цифровом мире.</h1>
+        <div class="rulet">
+            <button onclick="up1()">вперед</button>
+            <div class="wariant" id="ot1" style="display: block;">
+                <h1>РИ</h1>
+            </div>
+            <div class="wariant" id="ot2" style="display: none;">
+                <h1>МИ</h1>
+            </div>
+            <div class="wariant" id="ot3" style="display: none;">
+                <h1>ЛЕ</h1>
+            </div>
+            <div class="wariant" id="ot4" style="display: none;">
+                <h1>ЛЮ</h1>
+            </div>
+            <div class="wariant" id="ot5" style="display: none;">
+                <h1>ВЕ</h1>
+            </div>
+            <div class="wariant" id="ot6" style="display: none;">
+                <h1>АН</h1>
+            </div>
+            <div class="wariant" id="ot7" style="display: none;">
+                <h1>ЗА</h1>
+            </div>
+            <button onclick="down1()">назад</button>
+        </div>
+
+        <div class="rulet">
+            <button onclick="up2()">вперед</button>
+            <div class="wariant" id="ot8" style="display: block;">
+                <h1>ТУ</h1>
+            </div>
+            <div class="wariant" id="ot9" style="display: none;">
+                <h1>КАР</h1>
+            </div>
+            <div class="wariant" id="ot10" style="display: none;">
+                <h1>СУ</h1>
+            </div>
+            <div class="wariant" id="ot11" style="display: none;">
+                <h1>ТИ</h1>
+            </div>
+            <div class="wariant" id="ot12" style="display: none;">
+                <h1>РЕ</h1>
+            </div>
+            <button onclick="down2()">назад</button>
+        </div>
+
+        <div class="rulet">
+            <button onclick="up3()">вперед</button>
+            <div class="wariant" id="ot13" style="display: block;">
+                <h1>РИ</h1>
+            </div>
+            <div class="wariant" id="ot14" style="display: none;">
+                <h1>НО</h1>
+            </div>
+            <div class="wariant" id="ot15" style="display: none;">
+                <h1>ВИ</h1>
+            </div>
+            <button onclick="down3()">назад</button>
+        </div>
+
+        <div class="rulet">
+            <button onclick="up4()">вперед</button>
+            <div class="wariant" id="ot16" style="display: block;">
+                <h1>ЛЯ</h1>
+            </div>
+            <div class="wariant" id="ot17" style="display: none;">
+                <h1>ША</h1>
+            </div>
+            <div class="wariant" id="ot18" style="display: none;">
+                <h1>ИТЬ</h1>
+            </div>
+            <div class="wariant" id="ot19" style="display: none;">
+                <h1>РУС</h1>
+            </div>
+            <div class="wariant" id="ot20" style="display: none;">
+                <h1>УС</h1>
+            </div>
+            <div class="wariant" id="ot21" style="display: none;">
+                <h1>БУС</h1>
+            </div>
+            <button onclick="down4()">назад</button>
+        </div>
+
+
+        <button class="btn" onclick="result()">ПРОВЕРКА</button>
+
+    </div>
+    <script src="/src/js/level6.js"></script>
+</body>
+
+</html>

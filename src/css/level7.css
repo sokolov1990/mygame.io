@@ -1,0 +1,88 @@
+            body {
+                position: fixed;
+                text-align: left;
+                width: 100%;
+                height: 100%;
+                background: url(/src/img/fone-01.png) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+            
+            @font-face {
+                font-family: 'Kosko';
+                src: url('/src/fonts/KoskoRegular-Regular.ttf');
+            }
+            
+            h1 {
+                text-align: center;
+                color: rgb(207, 128, 31);
+                font-family: Kosko;
+                font-size: 35px;
+            }
+            
+            .container,
+            .otvet1,
+            .otvet2 {
+                margin: auto;
+                width: 1200px;
+                height: 50%;
+                text-align: center;
+            }
+            
+            button {
+                margin-top: 5%;
+                width: 30%;
+                height: 20%;
+                border-radius: 50px;
+                font-family: 'Kosko';
+                font-size: 20px;
+                background-color: rgb(207, 128, 31);
+            }
+            
+            .picture {
+                margin: auto;
+                width: 90%;
+                height: 100%;
+            }
+            
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+            
+            @media screen and (max-width: 960px) {
+                .container,
+                .otvet1,
+                .otvet2 {
+                    width: 900px;
+                }
+            }
+            
+            @media screen and (max-width: 800px) {
+                .container,
+                .otvet1,
+                .otvet2 {
+                    width: 700px;
+                }
+                .btn {
+                    font-size: 20px;
+                }
+            }
+            
+            @media screen and (max-width: 500px) {
+                .container,
+                .otvet1,
+                .otvet2 {
+                    width: 500px;
+                }
+                .btn {
+                    width: 40%;
+                    font-size: 13px;
+                }
+                h1 {
+                    font-size: 25px;
+                }
+            }
