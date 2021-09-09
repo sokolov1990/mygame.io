@@ -47,7 +47,7 @@ h1 {
 }
 
 .jostick {
-    display: none;
+    display: block;
     position: absolute;
     /* добавили */
     bottom: 0;
