@@ -31,17 +31,7 @@ button {
     font-family: Kosko;
 }
 
-@media screen and (max-width: 960px) {
-    .container {
-        width: 900px;
-    }
-}
 
-@media screen and (max-width: 800px) {
-    .container {
-        width: 700px;
-    }
-}
 
 @media screen and (max-width: 500px) {
     .container {
