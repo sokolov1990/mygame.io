@@ -64,7 +64,7 @@
         
         @font-face {
             font-family: 'Kosko';
-            src: url('/src/fonts/KoskoRegular-Regular.ttf');
+            src: url('/fonts/KoskoRegular-Regular.ttf');
         }
         
         h1 {
@@ -217,7 +217,7 @@
         
         @media screen and (max-width: 500px) {
             body {
-                background: url(/src/img/bngsmall-01.png) no-repeat center center fixed;
+                background: url(/img/bngsmall-01.png) no-repeat center center fixed;
             }
             h1 {
                 font-size: 25px;
