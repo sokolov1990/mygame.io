@@ -66,7 +66,13 @@ function proverka() {
         document.querySelector('.container').style.display = "none";
         document.querySelector('.otvet1').style.display = "block";
 
-    } else {
+    }
+      else if (result1 == 'Привет!' && result3 == 'Скажи, пожалуйста' &&
+        result2 == 'Какое домашнее задание на завтра?' && result4 == 'Спасибо!') {
+        document.querySelector('.container').style.display = "none";
+        document.querySelector('.otvet1').style.display = "block";
+      }
+    else {
         document.querySelector('.container').style.display = "none";
         document.querySelector('.otvet2').style.display = "block";
 
